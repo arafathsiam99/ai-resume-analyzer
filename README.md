@@ -10,15 +10,14 @@ Analyze resumes with LLM-powered insights — detect gaps, improve wording, and 
 
 ## 🔗 Live Demo
 
-🌍 [ai-resume-analyzer.vercel.app](https://ai-resume-analyzer.vercel.app)  
-📁 [View the Project Repository](https://github.com/arafathsiam99/ai-resume-analyzer)
+🌍 [ai-resume-analyzer.vercel.app](https://ai-resume-analyzer-one-chi.vercel.app/)  
 
 ---
 
 ## ⚙️ Tech Stack
 
-- **Frontend**: React 19, Tailwind CSS, React Dropzone
-- **Backend**: Node.js, React Router (Server-side rendering)
+- **Frontend**: React 19, Tailwind CSS, React Dropzone, Typescript
+- **Backend**: React Router (Server-side rendering)
 - **AI**: OpenAI GPT-4 (via API)
 - **PDF Parsing**: `pdfjs-dist`
 - **State Management**: Zustand
@@ -41,7 +40,6 @@ As AI continues to reshape job markets, I wanted to build a tool that:
 - 🧠 **LLM-Powered Resume Summary and Suggestions**
 - 🔍 **Category-wise Analysis** (Experience, Skills, Formatting, etc.)
 - ⚡ Fast and lightweight — deploys in seconds on Vercel
-- 🌙 Dark mode support for comfortable reading
 
 ---
 
@@ -56,9 +54,5 @@ git clone https://github.com/arafathsiam99/ai-resume-analyzer
 # 2. Install dependencies
 npm install
 
-# 3. Add your OpenAI API key
-# Create a .env file and include:
-OPENAI_API_KEY=your-key-here
-
-# 4. Run the app locally
+# 3. Run the app locally
 npm run dev
