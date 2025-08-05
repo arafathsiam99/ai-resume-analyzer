@@ -54,6 +54,11 @@ And many more, including code architecture and reusability.
 
 ---
 
+## 🖼️ Sample Resume Analysis
+
+<img src="public/readme/analysis-screenshot.webp" alt="Resume Analysis Screenshot" width="100%" />
+
+
 ## 🚀 How to Use
 
 ### 📦 Local Setup
