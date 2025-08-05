@@ -16,7 +16,7 @@ Analyze resumes with LLM-powered insights — detect gaps, improve wording, and 
 
 ## ⚙️ Tech Stack
 
-- **Frontend**: React 19, Tailwind CSS, React Dropzone, Typescript
+- **Frontend**: React 19, Tailwind CSS, React Dropzone, Typescript, Puter.js
 - **Backend**: React Router (Server-side rendering)
 - **AI**: OpenAI GPT-4 (via API)
 - **PDF Parsing**: `pdfjs-dist`
@@ -36,10 +36,21 @@ As AI continues to reshape job markets, I wanted to build a tool that:
 
 ## ✨ Key Features
 
-- 📄 **Drag-and-drop PDF Resume Upload**
-- 🧠 **LLM-Powered Resume Summary and Suggestions**
-- 🔍 **Category-wise Analysis** (Experience, Skills, Formatting, etc.)
-- ⚡ Fast and lightweight — deploys in seconds on Vercel
+👉 Easy & convenient auth: Handle authentication entirely in the browser using Puter.js—no backend or setup required.
+
+👉 Resume upload & storage: Let users upload and store all their resumes in one place, safely and reliably.
+
+👉 AI resume matching: Provide a job listing and get an ATS score with custom feedback tailored to each resume.
+
+👉 Reusable, modern UI: Built with clean, consistent components for a great-looking and maintainable interface.
+
+👉 Code Reusability: Leverage reusable components and a modular codebase for efficient development.
+
+👉 Cross-Device Compatibility: Fully responsive design that works seamlessly across all devices.
+
+👉 Modern UI/UX: Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
+
+And many more, including code architecture and reusability.
 
 ---
 
