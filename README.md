@@ -56,7 +56,8 @@ And many more, including code architecture and reusability.
 
 ## 🖼️ Sample Resume Analysis
 
-<img src="public/readme/analysis-screenshot.webp" alt="Resume Analysis Screenshot" width="100%" />
+<img src="public/readme/screencapture-ai-resume-analyzer-one-chi-vercel-app-resume-844777a9-2a59-40a4-b5f7-f1630cb44b15-2025-08-05-13_53_10.png" alt="Resume Analysis Screenshot" width="100%" />
+<img src="public/readme/screencapture-ai-resume-analyzer-one-chi-vercel-app-resume-9cab51f3-e80e-454f-8fed-f47c7ec81bd3-2025-08-05-13_58_17.png" alt="Resume Analysis Screenshot" width="100%" />
 
 
 ## 🚀 How to Use
