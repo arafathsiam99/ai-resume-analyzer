@@ -1,87 +1,64 @@
-# Welcome to React Router!
+# 🧠 AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+![License](https://img.shields.io/github/license/arafathsiam99/ai-resume-analyzer?style=flat-square)
+![Stars](https://img.shields.io/github/stars/arafathsiam99/ai-resume-analyzer?style=flat-square)
+![Issues](https://img.shields.io/github/issues/arafathsiam99/ai-resume-analyzer?style=flat-square)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+Analyze resumes with LLM-powered insights — detect gaps, improve wording, and get AI feedback.
 
 ---
 
-Built with ❤️ using React Router.
+## 🔗 Live Demo
+
+🌍 [ai-resume-analyzer.vercel.app](https://ai-resume-analyzer.vercel.app)  
+📁 [View the Project Repository](https://github.com/arafathsiam99/ai-resume-analyzer)
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend**: React 19, Tailwind CSS, React Dropzone
+- **Backend**: Node.js, React Router (Server-side rendering)
+- **AI**: OpenAI GPT-4 (via API)
+- **PDF Parsing**: `pdfjs-dist`
+- **State Management**: Zustand
+
+---
+
+## 💡 Why I Built This
+
+As AI continues to reshape job markets, I wanted to build a tool that:
+
+- Helps job seekers **optimize resumes** using real-time AI feedback
+- Offers insights on **tone, gaps, strengths**, and **clarity**
+- Bridges the gap between static resumes and intelligent resume understanding
+
+---
+
+## ✨ Key Features
+
+- 📄 **Drag-and-drop PDF Resume Upload**
+- 🧠 **LLM-Powered Resume Summary and Suggestions**
+- 🔍 **Category-wise Analysis** (Experience, Skills, Formatting, etc.)
+- ⚡ Fast and lightweight — deploys in seconds on Vercel
+- 🌙 Dark mode support for comfortable reading
+
+---
+
+## 🚀 How to Use
+
+### 📦 Local Setup
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/arafathsiam99/ai-resume-analyzer
+
+# 2. Install dependencies
+npm install
+
+# 3. Add your OpenAI API key
+# Create a .env file and include:
+OPENAI_API_KEY=your-key-here
+
+# 4. Run the app locally
+npm run dev
